@@ -1,0 +1,18 @@
+.headercon{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    width: 100vw;
+    justify-content: flex-end;
+}
+.headerli{
+    list-style-type: none;
+    margin-right: 10px;
+    color: white;
+    height: 40px;
+    width: 100px;
+}
+.headerx{
+    color: white;
+    text-decoration: none;
+}

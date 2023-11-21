@@ -1,0 +1,52 @@
+.container3{
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card3{
+    margin-left: 200px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 90vw;
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.box3{
+    margin-left: 50px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 90vw;
+    height:100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.head3{
+    font-size: 30px;
+    color: blueviolet;
+    text-align: center;
+}
+.x3{
+    margin-right: 20px;
+}
+.but4{
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: blue;
+}

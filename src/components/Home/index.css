@@ -1,0 +1,20 @@
+/* .cont{
+   background-color: blue;
+   padding: 20px;
+   width: 100%;
+} */
+.cont0{
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: blue;
+}
+.homecon{
+    background-color: blue;
+}
