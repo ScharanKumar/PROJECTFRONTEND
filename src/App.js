@@ -15,7 +15,7 @@ const App=()=>{
              <Route exact path="/register" component={Register}/>
              <ProtectedRoute exact path="/" component={Home}/>
              <ProtectedRoute exact path="/contacts" component={Contacts}/>
-             <Route exact path="/todolist" component={Todolist}/>
+             <ProtectedRoute exact path="/todolist" component={Todolist}/>
          </Switch>
       </BrowserRouter>
     )
