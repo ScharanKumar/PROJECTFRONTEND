@@ -1,4 +1,4 @@
-import {BrowserRouter, Route, Switch} from "react-router-dom"
+import { Route, Switch} from "react-router-dom"
 
 import Login from "./components/Login"
 import Register from "./components/Register"
@@ -9,7 +9,7 @@ import ProtectedRoute from "./components/ProtectedRoute"
 
 const App=()=>{
     return(
-      <BrowserRouter>
+      // <BrowserRouter>
          <Switch>
              <Route exact path="/login" component={Login}/>
              <Route exact path="/register" component={Register}/>
@@ -17,7 +17,7 @@ const App=()=>{
              <ProtectedRoute exact path="/contacts" component={Contacts}/>
              <ProtectedRoute exact path="/todolist" component={Todolist}/>
          </Switch>
-      </BrowserRouter>
+      // </BrowserRouter>
     )
 }
 
