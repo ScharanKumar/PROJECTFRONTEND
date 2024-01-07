@@ -33,13 +33,23 @@ class Login extends Component{
                 username,
                 password
             }
+
             const options = {
-                method:"POST",
-                headers: {
-                    "Content-Type": "application/json"
-                  },
-                  body: JSON.stringify(data)
-            }
+              method: "POST",
+              headers: {
+                 "Content-Type": "application/json",
+                 Accept: "application/json",
+              },
+              body: JSON.stringify(data),      
+            };
+
+            // const options = {
+            //     method:"POST",
+            //     headers: {
+            //         "Content-Type": "application/json"
+            //       },
+            //       body: JSON.stringify(data)
+            // }
             const response=await fetch("https://projectcharan1.onrender.com/login",options)
             console.log(response)
            

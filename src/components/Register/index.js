@@ -16,13 +16,23 @@ class Register extends Component{
                 username,
                 password
             }
+              
             const options = {
-                method:"POST",
+                method: "POST",
                 headers: {
-                    "Content-Type": "application/json"
-                  },
-                  body: JSON.stringify(data)
-            }
+                   "Content-Type": "application/json",
+                   Accept: "application/json",
+                },
+                body: JSON.stringify(data),      
+              };
+
+            // const options = {
+            //     method:"POST",
+            //     headers: {
+            //         "Content-Type": "application/json"
+            //       },
+            //       body: JSON.stringify(data)
+            // }
             const res1=await fetch("https://projectcharan1.onrender.com/register",options)
             console.log(res1)
             const resdata = await res1.text()
